@@ -1,0 +1,58 @@
+/* style2.css */
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #fde68a; /* Fundo amarelo mais claro */
+  color: #000000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  padding: 20px 0;
+  box-sizing: border-box;
+}
+
+.container {
+  background-color: #f1c40f;
+  padding: 1.5rem 3rem; /* Ajuste de padding para centralizar o conteúdo */
+  width: 100%;
+  max-width: 450px; /* Largura máxima para a caixa */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  border-radius: 12px;
+  text-align: center;
+  margin: auto;
+  box-sizing: border-box;
+}
+
+h2 {
+  color: #000000; /* Texto preto */
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+p {
+  font-size: 0.9rem;
+  color: #000000; /* Texto preto */
+  margin-bottom: 1.5rem;
+}
+
+button {
+  width: 100%;
+  padding: 0.8rem;
+  font-size: 1rem;
+  background-color: #e1a526; /* Amarelo mais forte */
+  color: #000000; /* Texto preto */
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  font-weight: bold;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+button:hover {
+  background-color: #d18f20; /* Mais escuro no hover */
+  transform: translateY(-2px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
